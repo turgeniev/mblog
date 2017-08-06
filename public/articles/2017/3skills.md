@@ -5,16 +5,12 @@ Summarized from Mark Manson's [blog entry].
 
 [blog entry]: https://markmanson.net/life-skills
 
----
-
 ## 1. How to stop taking things personally
 
 Everything we experience in our lives involves us somehow.
 
 As a result, we tend to have an inherent bias towards assuming
-that pretty much everything that happens to us is actually about us.
-
----
+that pretty much everything that happens to us is actually _about us_.
 
 ## 2. How to be persuaded and change your mind
 
@@ -23,8 +19,6 @@ but they make up key components of our identity.
 
 Your ability to succeed and learn over the long-term is directly proportional
 to your ability to change what you believe in response to your ignorance and mistakes.
-
----
 
 ## 3. How to act without knowing the result
 

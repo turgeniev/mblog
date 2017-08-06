@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    main
+        article
+            //- generate list of articles
+            h1 Articles
+            p List of all articles.
+            h2 2017
+            ul
+                each art in articles
+                    li
+                        a(href='' + art.link) #{art.title}
+                        p  Short summary

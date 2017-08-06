@@ -1,8 +1,174 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/**
+ * http://fonts4web.ru/proximanova.html
+ */
+
+@font-face {
+  font-family: "ArsenalRegular";
+  src: url("../fonts/ArsenalRegular/ArsenalRegular.eot");
+  src: url("../fonts/ArsenalRegular/ArsenalRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ArsenalRegular/ArsenalRegular.woff") format("woff"),
+  url("../fonts/ArsenalRegular/ArsenalRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "DroidSerifRegular";
+  src: url("../fonts/DroidSerifRegular/DroidSerifRegular.eot");
+  src: url("../fonts/DroidSerifRegular/DroidSerifRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/DroidSerifRegular/DroidSerifRegular.woff") format("woff"),
+  url("../fonts/DroidSerifRegular/DroidSerifRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "ProximaNovaRegular"; */
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+  src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+      url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+  src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+      url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "ProximaNovaBlack"; */
+@font-face {
+  font-family: "ProximaNovaBlack";
+  src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
+  src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
+      url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body, p, h1, h2 {
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+  color: #24292e;
+}
+
+body {
+  font-family: DroidSerifRegular, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  background-color: #FEFEFE;
+  /*    background-color: #2b3137;*/
+  color: black;
+
+  min-height: 100vh;
+}
+
+body > header {
+  color: black;
+  background: url(../images/IMG_1143_logo.JPG) no-repeat center;
+  background-size: cover;
+
+  height: 35em;
+  max-height: 45em;
+}
+
+body > header > section {
+  width: 60%;
+  margin: 0 auto;
+  padding: 3em 0 0 4em;
+}
+
+body > header h1 {
+  font-family: ProximaNovaBold, Helvetica, Arial, sans-serif;
+  font-size: 5em;
+
+  /*    text-shadow: 0.1em 0.1em 0.1em grey;*/
+}
+
+body > header p {
+  font-size: 1.2em;
+  margin: 0.2em 0 0 0.2em;
+}
+
+main {
+  min-height: 50vh;
+  margin: 0 20%;
+  padding: 4em 2em 1em 2em;
+  box-shadow: -10px 0 20px rgba(0, 0, 0, 0.03), 10px 0 20px rgba(0, 0, 0, 0.03);
+}
+
+article h1 {
+  font-family: ProximaNovaBold, Helvetica, Arial, sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+article h1 + p {
+  font-style: italic;
+}
+
+article h2 {
+  font-family: ProximaNovaBold, Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  /*color: tan;*/
+  
+  margin-top: 1.6em;
+}
+article p {
+  font-size: 1.1em;
+  margin: 1.5em 0;
+  line-height: 1.5em;
+}
+
+article ul {
+  list-style: none;
+}
+
+article a {
+  color: #C7A24B;
+  border-bottom: 1px dashed;
+}
+
+article a:hover {
+  cursor: pointer;
+  color: #B22F24;
+  font-size: 1.1em;
+}
+
+article blockquote {
+  font-size: 1.4em;
+  font-style: italic;
+  
+  position: relative;
+}
+
+em {
+  color: rgba(0,0,0,0.7);
+}
+
+em:hover {
+  font-size: 1.1em;
+}
+
+footer {
+  font-size: 1.2em;
+  padding: 3em 20% 6em;
+  background-color: #C7A24B;
+  /*color: white;*/
+  /*color: rgba(255,255,255,0.6);*/
+}
+
+footer p {
+  margin-top: 0.5em;
 }
